@@ -2,10 +2,11 @@
 //  Theme.swift
 //  Scrumdinger
 //
-//  Created by Sebastin on 18/4/24.
+//  Created by Sebastin on 20/5/24.
 //
 
 import SwiftUI
+
 
 enum Theme: String {
     case bubblegum
@@ -33,5 +34,8 @@ enum Theme: String {
     }
     var mainColor: Color {
         Color(rawValue)
+    }
+    var name: String {
+           rawValue.capitalized
     }
 }
